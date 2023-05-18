@@ -52,6 +52,18 @@ header{
     transform: scale(1.1);
     color: #EE1C47;
 }
+.user-info {
+  display: none;
+  position: absolute;
+  top: 40px; /* Ajuste conforme necessário */
+  right: 0;
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 100;
+}
+
 /* Resto do seu CSS existente */
 
 @media (min-width: 751px) {
